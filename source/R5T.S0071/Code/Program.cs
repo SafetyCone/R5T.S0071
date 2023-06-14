@@ -1,13 +1,14 @@
 using System;
+using System.Threading.Tasks;
 
 
 namespace R5T.S0071
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            Console.WriteLine("Hello World!");
+            await SolutionSetGenerationScripts.Instance.Create_WebBlazorClientAndServer();
         }
     }
 }
