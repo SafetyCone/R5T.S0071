@@ -8,7 +8,9 @@ namespace R5T.S0071
     {
         static async Task Main()
         {
-            await SolutionSetGenerationScripts.Instance.Create_WebBlazorClientAndServer();
+            //await SolutionSetGenerationScripts.Instance.Create_WebBlazorClientAndServer();
+
+            await SolutionScripts.Instance.In_New_SampleSolutionContext();
         }
     }
 }
