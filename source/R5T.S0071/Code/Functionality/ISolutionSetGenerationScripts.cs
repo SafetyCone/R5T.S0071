@@ -58,7 +58,7 @@ namespace R5T.S0071
                     creationResult.SolutionFilePath.Value);
             }            
 
-            Instances.WindowsExplorerOperator.OpenDirectoryInExplorer(
+            Instances.WindowsExplorerOperator._Platform.OpenDirectoryInExplorer(
                 solutionDirectoryPath.Value);
         }
     }

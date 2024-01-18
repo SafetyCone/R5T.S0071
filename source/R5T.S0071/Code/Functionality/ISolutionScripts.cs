@@ -23,7 +23,7 @@ namespace R5T.S0071
 
             static async Task ApplicationContextOperation(IApplicationContext applicationContext)
             {
-                await Instances.SolutionOperations.In_New_SampleSolutionContext(
+                await Instances.SampleSolutionOperations.In_New_SampleSolutionContext(
                     applicationContext.TextOutput,
                     async solutionContext =>
                     {
