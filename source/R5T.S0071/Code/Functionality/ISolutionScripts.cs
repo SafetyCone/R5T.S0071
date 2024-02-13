@@ -46,7 +46,7 @@ namespace R5T.S0071
                             )
                         );
 
-                        Instances.VisualStudioOperator.OpenSolutionFile(
+                        Instances.VisualStudioOperator.Open_SolutionFile(
                             solutionContext.SolutionFilePath.Value);
                     });
             }
